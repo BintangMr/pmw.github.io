@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Monospace:wght@100;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700;800&display=swap");
+
+:root {
+  --font1: "Monospace", sans-serif;
+  --font2: "Tangerine", sans-serif;
+  --font3: "Courier", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #F8B88B;
+  font-family: var(--font1);
+  font-size: 35px;
+  background-image: url('img/seat.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+/* Template */
+h6 {
+  font-size: 34px;
+}
+h1{
+  color: #FAF5EF;
+  font-size: 60px;
+  font-family: var(--font2);
+}
+li{
+  font-family: var(--font1);
+  font-size: 20px;
+}
+h3{
+  font-family: var(--font3);
+}
+h4{
+  font-family: var(--font3);
+}
+label{
+  font-family: var(--font3);
+}
+button{
+  font-family: var(--font3);
+}
+a{
+  font-family: var(--font3);
+}
+h2{
+  font-family: var(--font3);
+}
+small{
+  font-family: var(--font1);
+}
+p{
+  font-family: var(--font3);
+  color: #FAF5EF;
+}
+#link .nav-link:hover {
+  border:1px solid #FAF5EF;
+}
+.card-vid {
+  margin-left: 15px;
+  margin: 0;
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+  height: 370px;
+  margin: 0;
+}
+.card-vid h4 {
+  color: blue;
+  margin-top: 10px;
+}
+.card-vid video {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.card-vid button { 
+  width: 150px; 
+  border: thin solid #000; 
+  transition: 0.5s all ease;
+  width: 100%; 
+  border: none;
+}
+.judul {
+  background-image: url('img/header.jpg');
+  color: #FAF5EF;
+  font-family: var(--font2);
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.poster > a > img {
+  width: 230px !important;
+  height: 330px;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.poster > a > img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.cn {
+  margin-top: -15px !important;
+}
+
+.active {
+  color: #FAF5EF !important;
+}
+
+.judul > a {
+  font-size: 50px !important;
+  color: #FAF5EF !important;
+}
+
+nav {
+  background-color: #F9966B;
+  height: 50px;
+}
+
+.bagian-kanan > .card {
+  background-color: #323b43;
+  color: aliceblue;
+}
+
+.bagian-kiri > .card {
+  background-color: #323b43;
+  color: aliceblue;
+}
+
+/* Index */
+.info-film > .card {
+  background-color: #323b43;
+  color: aliceblue;
+  transition: 0.2s;
+}
+
+.info-film > .card:hover {
+  transform: scale(1.03);
+  transition: 0.2s;
+}
+
+/* Halaman Regist */
+
+/* Info Film */
+.card-text > ul {
+  font-size: 15px !important;
+}
+
+/* Now Playing */
+.list-now-playing {
+  transition: 0.2s;
+}
+
+.list-now-playing:hover {
+  transform: scale(1.03);
+  transition: 0.2s;
+}
